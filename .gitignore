@@ -1,0 +1,18 @@
+# NODE (Next.js Frontend)
+node_modules/
+.next/
+out/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env files
+.env
+.env.local
+
+# PYTHON (FastAPI Backend)
+__pycache__/
+*.py
