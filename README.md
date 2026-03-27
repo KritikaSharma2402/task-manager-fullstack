@@ -35,23 +35,23 @@ Authentication
 
 🔹 Clone the Repository
 
-git clone https://github.com/YOUR_USERNAME/task-manager-fullstack.git
+git clone https://github.com/KritikaSharma2402/task-manager-fullstack.git
 cd task-manager-fullstack
 
 🔹 Backend Setup
 
-cd backend
-pip install fastapi uvicorn python-multipart
-python -m uvicorn main:app --reload
+- cd backend
+- pip install fastapi uvicorn python-multipart
+- python -m uvicorn main:app --reload
 
 Backend runs on:
 http://127.0.0.1:8000/docs
 
 🔹 Frontend Setup
 
-cd frontend
-npm install
-npm run dev
+c- d frontend
+- npm install
+- npm run dev
 
 Frontend runs on:
 http://localhost:3000
@@ -64,50 +64,39 @@ JWT token is generated and stored in browser
 Token is used for secure API requests
 
 
-📊 API Endpoints
-
-Method	       Endpoint	         Description
-POST	        /login	         User login
-POST	        /tasks	         Create task
-GET	            /tasks	         Get all tasks
-GET	            /tasks/{id}	     Get single task
-PUT	            /tasks/{id}	     Update task
-DELETE	        /tasks/{id}	     Delete task
-
-
 🧠 Tech Decisions
 
-FastAPI chosen for high performance and automatic API documentation
-Next.js used for building modern frontend with routing
-SQLite used for simplicity and easy setup
-JWT Authentication ensures secure and stateless communication
+- FastAPI chosen for high performance and automatic API documentation
+- Next.js used for building modern frontend with routing
+- SQLite used for simplicity and easy setup
+- JWT Authentication ensures secure and stateless communication
 
 
 ⚠️ Limitations
 
-No multi-user system
-No deadline feature
-No notifications
-No cloud deployment
+- No multi-user system
+- No deadline feature
+- No notifications
+- No cloud deployment
 
 
 🔮 Future Improvements
 
-Add task deadlines and reminders
-Implement multi-user login system
-Add search and filter functionality
-Deploy project on cloud (Vercel + Render)
-Add AI-based task suggestions
+- Add task deadlines and reminders
+- Implement multi-user login system
+- Add search and filter functionality
+- Deploy project on cloud (Vercel + Render)
+- Add AI-based task suggestions
 
 
 📸 Application Preview
 
-Login & Authentication
-Dashboard & Task Analytics
-Task Page
+- Login & Authentication
+- Dashboard & Task Analytics
+- Task Page
 
 
 👨‍💻 Author
 
-Kritika Sharma - kritikasharma0208@gmail.com
-GitHub Profile - https://github.com/KritikaSharma2402
+- Kritika Sharma - kritikasharma0208@gmail.com
+- GitHub Profile - https://github.com/KritikaSharma2402
