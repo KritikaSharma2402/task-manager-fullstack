@@ -49,7 +49,7 @@ http://127.0.0.1:8000/docs
 
 🔹 Frontend Setup
 
-c- d frontend
+- cd frontend
 - npm install
 - npm run dev
 
@@ -59,9 +59,9 @@ http://localhost:3000
 
 🔐 Authentication
 
-Users login using username and password
-JWT token is generated and stored in browser
-Token is used for secure API requests
+- Users login using username and password
+- JWT token is generated and stored in browser
+- Token is used for secure API requests
 
 
 🧠 Tech Decisions
